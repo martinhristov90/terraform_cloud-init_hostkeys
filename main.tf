@@ -26,7 +26,7 @@ resource "aws_instance" "web" {
 
   key_name = "marti"
   tags = {
-    Name = "HelloWorld"
+    Name = "HelloWorld1"
   }
 }
 # Two types of host keys alghorithms need to be used.
